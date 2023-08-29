@@ -8,6 +8,8 @@
         <module>micro-service-cloud-api</module>
         <module>micro-service-cloud-eureka-server</module>
         <module>micro-service-cloud-provider-dept</module>
+        <module>micro-service-cloud-consumer-dept</module>
+        <module>micro-service-cloud-feign</module>
     </modules>
 
     <parent>
