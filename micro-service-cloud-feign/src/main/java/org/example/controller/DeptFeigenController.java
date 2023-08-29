@@ -24,4 +24,9 @@ public class DeptFeigenController {
     public List<Dept> list() {
         return deptFeignService.list();
     }
+
+    @RequestMapping(value = "/consumer/dept/feign/timeout")
+    public String DeptFeignTimeout() {
+        return deptFeignService.DeptFeignTimeout();
+    }
 }
