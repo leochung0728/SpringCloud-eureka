@@ -15,3 +15,7 @@ spring:
         config:
           default:
             readTimeout: 6000
+
+logging:
+  level:
+    org.example.service.DeptFeignService: debug
